@@ -30,6 +30,7 @@
         <asp:Label ID="myMsn" runat="server" Text="L"></asp:Label>
         <div>
               
+            <asp:GridView ID="grView" runat="server"></asp:GridView>
         </div>
     </form>
   
