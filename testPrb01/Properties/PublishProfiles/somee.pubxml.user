@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword />
+    <_PublishTargetUrl>ftp://www.elity.somee.com/www.elity.somee.com/</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/testPrb01.dll">
+      <publishTime>07/18/2016 00:10:50</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>07/17/2016 21:19:44</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>07/14/2016 22:11:56</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>07/18/2016 00:10:54</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

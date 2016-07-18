@@ -1,0 +1,6 @@
+C:\Users\ferne_000\documents\visual studio 2013\Projects\testPrb01\testPrb01\bin\testPrb01.dll.config
+C:\Users\ferne_000\documents\visual studio 2013\Projects\testPrb01\testPrb01\bin\testPrb01.dll
+C:\Users\ferne_000\documents\visual studio 2013\Projects\testPrb01\testPrb01\bin\testPrb01.pdb
+C:\Users\ferne_000\documents\visual studio 2013\Projects\testPrb01\testPrb01\obj\Release\testPrb01.csprojResolveAssemblyReference.cache
+C:\Users\ferne_000\documents\visual studio 2013\Projects\testPrb01\testPrb01\obj\Release\testPrb01.dll
+C:\Users\ferne_000\documents\visual studio 2013\Projects\testPrb01\testPrb01\obj\Release\testPrb01.pdb
