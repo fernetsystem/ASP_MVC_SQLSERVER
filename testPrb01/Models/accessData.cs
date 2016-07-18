@@ -22,3 +22,12 @@ namespace testPrb01.Models
             connection = new SqlConnection(lineConnection);
             cmd = new SqlCommand();
         }
+
+        public int executeQuery(string query)
+        {
+            cmd.Connection = connection;
+            cmd = connection.CreateCommand();
+            cmd.CommandText = query;
+            int result = cmd.ExecuteNonQuery();
+            return result;
+        }
