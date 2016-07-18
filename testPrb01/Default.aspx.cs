@@ -14,6 +14,7 @@ namespace testPrb01
         clientesController controller = new clientesController();
         protected void Page_Load(object sender, EventArgs e)
         {
+            data();
         }
 
         protected void Button1_Click(object sender, EventArgs e)
@@ -36,6 +37,12 @@ namespace testPrb01
                 myMsn.Text = "error";
             }
             data();
+        }
+
+        public void data()
+        {
+            grView.DataSource = controller.getAllClients();
+            grView.DataBind();
         }
     }
 }
