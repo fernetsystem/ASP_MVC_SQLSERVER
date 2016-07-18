@@ -31,3 +31,14 @@ namespace testPrb01.Models
             int result = cmd.ExecuteNonQuery();
             return result;
         }
+
+        public SqlDataReader executeReader(string query)
+        {
+            cmd.Connection = connection;
+            cmd = connection.CreateCommand();
+            cmd.CommandText = query;
+            reader = cmd.ExecuteReader();            
+            return reader;
+        }
+    }
+}
